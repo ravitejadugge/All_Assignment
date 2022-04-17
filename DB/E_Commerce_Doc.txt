@@ -1,0 +1,43 @@
+*****   Schema Design for E-Commerce *****
+
+Scope => A well-structured database for e-commerce and
+ manages product user and orders.
+
+The main consideration when designing the database is 
+identifying the functionalities
+offered by the e-commerce platform.
+
+
+functionilities  necessary for facilitating the day-to-day operations
+ of the e-commerce platform, including user management, product and inventory management, 
+shopping cart function, payment management, and shipping management.
+
+1==>  User Management 
+
+i) A user table that contains all the user details along with user_payment
+ and user_address tables to store
+ multiple addresses and payment details of users.
+
+
+
+2 ==> Product management 
+ i) Managing products is not simply about maintaining a list of products. 
+A Table containing details about product and count of every product and other attributes of the products.
+User can search for a particualr product based his choice and interst.
+
+
+3 == >  Cart Functionality 
+i) User can add products to cart of his choice .
+
+4==> Payment Management 
+ i) Payments are the one of the important aspect in the E-commerce so, Every payment are stored with the date and time .
+
+4 ==> Shipping process
+
+The shopping process will guide a user to search the products,
+add the desired products to the shopping cart, and finally complete the transaction using a payment provider.
+
+user can also track the product with locations which will be provided by shipping partner.
+
+
+
