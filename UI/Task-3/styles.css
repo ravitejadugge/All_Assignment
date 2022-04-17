@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    align-items: center;
+    align-content: center;
+}
+
+
+h2 {
+    /* padding: 30px; */
+    background-color: #01a9f4;
+    text-align: center;
+}
+
+.heading {
+    padding: 20px;
+    color: white;
+}
+
+.block {
+    margin: 20px;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 150px;
+    background-color: #01a9f4 !important;
+}
+.inpbox {
+    padding: 11px !important;
+    border: none;
+    width: 60%;
+} 
+
+.btn {
+    cursor: pointer;
+    padding: 11px;
+    margin-top: 0;
+    background-color: #d9d9d9;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #89eee0   !important;
+    transition: 2s;
+}
+
+.cont {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(90, 88, 90);
+    background-color: #89eee0;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.cont :hover {
+    background-color: rgb(255, 166, 0) !important;
+    transition: 2s;
+}
+
+label {
+   margin: 10px;
+   font-size: 20px;
+}
+
+ input[type=checkbox]:checked + label.labclass {
+    text-decoration: line-through !important;
+    background-color: rgb(98, 151, 165);
+  }
+
+
+
+
+
+  

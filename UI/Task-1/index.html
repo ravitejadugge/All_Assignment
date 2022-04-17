@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon"  type="image" href="rlogo.png" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+
+  <title>profile page</title>
+  
+
+<style>
+  body, html {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+  .welcome {
+    background: linear-gradient(35deg,#55d8aa 30%,transparent 40%),linear-gradient(135deg,#f0c466 30%,#72dcdc 85%);
+    width: 100%;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    position: static;
+    padding: 15px;
+  }
+
+  .flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-left {
+  flex: 50%;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  text-align: justify;
+  margin: 10px;
+
+}
+
+.flex-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.profilepic {
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+.profileName {
+  font-family: 'Sofia';
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 70%; background-color:rgb(93, 218, 218);}
+.js {width: 71%; background-color: #2196F3   ;}
+.boost {width: 75%; background-color: #808080;}
+.react {width: 65%; background-color:#f0c466}
+
+
+
+
+
+hr {
+    background-color: #fff;
+    display: flex;
+    border: none;
+    width: 100px;
+    background: none;
+    border-top: 5px dotted #1dd1a1;
+}
+
+
+.centerdiv{
+  margin-top: 20px;
+	background-color: #33d9b2;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	bottom: 0;
+	 overflow: hidden;
+	  padding-bottom: 10px;
+
+}
+ .centerdiv a{  
+	width: 50px;
+	height: 50px;
+	background-color: #f5f6fa;
+	border-radius: 50%;
+	text-align: center;
+	margin: 15px;
+	line-height: 60px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.centerdiv a i {
+	transition: all 0.3s linear;
+}
+ .centerdiv a:hover {
+ 	transform: scale(1.2);
+ }
+
+.fa-instagram{
+	color: #e84393;
+}
+.fa-linkedin{
+	color: #0097e6;
+}
+.fa-twitter{
+	color:#0096e6;
+
+}
+
+.form-box {
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  
+  width: 60%;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background: none;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4c66af;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2c8883;
+  }
+
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+
+  <div class="welcome">   <marquee behavior="alternate" direction="left"> Welcome to my Profile 🔅 </marquee> </div>
+
+  
+
+  
+  <div class="flex-container">
+    <div class="flex-left">
+      <h3 style="text-align: center;">About Me </h3>
+
+      <p>
+      I am <span class="profileName">RaviTeja</span> . I am  Curently Pursuing B-Tech Degree  
+      from Malla Redyy Engineering College. I have Passion for Web Development.
+      I believe that HardWork is the key To Excelence.
+      </p> 
+
+    </div>
+    <div class="flex-right">
+
+      <img class="profilepic" src="https://media-exp1.licdn.com/dms/image/C5603AQHLBz9UG0c8dQ/profile-displayphoto-shrink_200_200/0/1607711702801?e=1648684800&v=beta&t=73_5egnc3A-iF3_8Wv0YmDmjTQTjRZi-5I8zOJWMpeU" alt="profile Image">
+      
+      <h2 class="profileName"> Ravi Teja</h2>
+
+
+    </div>
+  </div>
+
+  <hr />
+
+  <div style="margin: 15px;">
+   
+    <h3 style="text-align: center;     font-size: 1.8rem"> *** My Skills ***  </h3>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+
+<p>BOOTSTRAP</p>
+<div class="container">
+  <div class="skills boost">75%</div>
+</div>
+
+
+
+<p>JAVA SCRIPT</p>
+<div class="container">
+  <div class="skills js">71%</div>
+  </div>
+
+
+  <p>CSS</p>
+<div class="container">
+  <div class="skills css">70%</div>
+</div>
+
+
+
+<p>REACT</p>
+<div class="container">
+  <div class="skills react">65%</div>
+</div>
+
+
+<hr /> 
+
+
+<h3 style="text-align: center;     font-size: 1.8rem"> ***  Contact Me ***  </h3>
+
+
+
+<div class="form-box ">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text"  name="name" placeholder="Your name"/>
+
+    <label for="lname">Last Name</label>
+    <input type="text" placeholder="Your last name" />
+    <label for="email">Email</label>
+    <input type="text"  placeholder="Your Email"/>
+
+    <label for="subject">Subject</label>
+    <textarea placeholder="Write something"></textarea>
+
+    <input type="submit"/>
+  </form>
+</div>
+
+
+
+
+
+  <div class="centerdiv">
+    <a href="https://www.facebook.com/dugge.raviteja" target="_blank">
+      <i class="fa fa-2x fa-facebook-f"></i>
+    </a>
+  
+  
+      <a href="https://twitter.com/DuggeRaviteja" target="_blank">
+      <i class="fa fa-2x fa-twitter"></i>
+    </a>
+  
+  
+      <a href="https://www.instagram.com/_raviteja_01" target="_blank">
+      <i class="fa fa-2x fa-instagram"></i>
+    </a>
+  
+          <a  href="https://www.linkedin.com/in/dugge-raviteja-789ravi" target="_blank">
+      <i class="fa fa-2x fa-linkedin"></i>
+      </a>
+  </div>
+
+
+
+
+ 
+
+
+
+  
+</body>
+</html>
